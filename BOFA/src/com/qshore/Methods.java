@@ -143,4 +143,12 @@ public class Methods {
     		 System.out.println("Fail");
      }
      //*****************************************************************
+     public void valuesInDropdowns(WebElement element, String loc, int exp){
+    	 values=element.findElements(By.tagName(loc));
+    	 if(values.size()==exp)
+    	      System.out.println("Pass");
+    	 else
+    		 System.out.println("Fail");
+     }
+     //*****************************************************************
 }
