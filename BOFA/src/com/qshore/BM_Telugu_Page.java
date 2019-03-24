@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class BM_Telugu_Page {
-	@FindBy(xpath="//*[@id='RELIGION']") WebElement BM_TeluguPage_Religion;
+	public @FindBy(xpath="//*[@id='RELIGION']") WebElement BM_TeluguPage_Religion;
 	
 	
 	
